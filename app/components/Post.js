@@ -4,9 +4,12 @@ const Post = ({ post }) => {
     return (
         <div>
             <Link href="/">Назад</Link><br />
-            <h2>{post.title}</h2>
+            <h1>{post.title}</h1>
             <p>{post.body}</p>
-            <strong>Avtor ID: {post.userId}</strong>
         </div>
-    )
-}
+    );
+};
+
+export default Post;
+
+            
